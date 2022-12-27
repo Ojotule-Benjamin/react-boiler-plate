@@ -1,7 +1,13 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Analytics from "./components/Analytics";
+
 function App() {
   return (
     <div className="App">
-      <hh1>React boiler plate</hh1>
+      <Navbar />
+      <Hero />
+      <Analytics />
     </div>
   );
 }
